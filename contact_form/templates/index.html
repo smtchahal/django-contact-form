@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block body %}
+    <div class="container">
+        <div class="form-container">
+            <h1 class="mt-5">Welcome</h1>
+            <p>Wow, such empty. Try the <a href="{% url 'contact_form:index' %}">contact page</a>, maybe?</p>
+        </div>
+    </div>
+{% endblock %}
